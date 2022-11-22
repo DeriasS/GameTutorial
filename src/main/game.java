@@ -6,8 +6,10 @@ package main;
  */
 public class game {
     private GameWindow gameWindow;
+    private GamePanel gamePanel;
     public game() {
-        gameWindow = new GameWindow();
+        gamePanel = new GamePanel();
+        gameWindow = new GameWindow(gamePanel);
     }
     
 }
