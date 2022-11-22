@@ -10,6 +10,7 @@ public class game {
     public game() {
         gamePanel = new GamePanel();
         gameWindow = new GameWindow(gamePanel);
+        gamePanel.requestFocus();
     }
     
 }
